@@ -1,0 +1,38 @@
+Exercise
+! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+Upload your file as "student_number.cpp"
+Cite your homework (Write comments to explain functions and how they operate)
+Do not cheat or use online sources EXCEPT Sakai.
+! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+
+You will code a movie search/filter console GUI with various operations.
+The objectives you have to accomplish are listed below;
+
+    * Create a Movie Class with private id(int),name(string),point(float),year(int) variables
+    * Generate Getter for all variables and Setter for only point variable.
+    * Read the "movie.txt" file and store each movie in Movie array.
+    * Write necessary functionalities for the GUI options given in below;
+
+    -----------------------------------------------------------------------
+    Welcome to the Movie Market. Please select an option.
+    1 - Get movie details by ID
+    2 - List movies between the years entered
+    3 - Change the point of a movie
+    4 - Get movie details starting with the entered letter
+    5 - Exit
+    ---------------------------------------------------------------------------
+
+    * Write a "printMovie" function to print movie details
+    * Use "autoIncrement" logic to set ID values for Movie
+
+    Bonus
+    ----------------------------------------------------------------------------
+    Add a "voting system" functionality for movies.
+    * A movie can be voted up to 10 times with integer values between 1 and 10
+    * The "point" value of the movie should be equal to the average of votes.
+    * Be careful when you calculate the average
+    (If a movie is voted for the first time, the average is  (original point value + new vote value) / 2 )
+
+
+
+
