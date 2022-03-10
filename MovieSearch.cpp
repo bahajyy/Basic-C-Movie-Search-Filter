@@ -3,7 +3,7 @@
 #include <sstream>
 #include <string>
 
-//Baha Jiyan Yılmaz 19070006010
+// Baha Jiyan Yılmaz
 
 using namespace std;
 
